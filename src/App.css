@@ -1,0 +1,52 @@
+/* App.css */
+.App {
+  text-align: center;
+  background-color: #009999;
+  background-size: cover;
+  padding: 20px;
+}
+
+.main-heading {
+  color: #000d1a;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.todo input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.todo button {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.todo button.edit {
+  background-color: #007bff;
+  margin-right: 5px;
+}
+
+.todo button:hover {
+  background-color: #c50000;
+}
+
+.completed {
+  background-color: #d3ffd3;
+  text-decoration: line-through;
+}

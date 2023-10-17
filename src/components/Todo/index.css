@@ -1,0 +1,66 @@
+.save-btn {
+  background-color: #0056b3;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 90px;
+  color: #ffffff;
+  margin: 15px;
+}
+
+.save-btn:hover {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.edit-btn {
+  background-color: #0056b3;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 90px;
+  color: #ffffff;
+  margin: 15px;
+}
+
+.del-btn {
+  background-color: #0056b3;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 90px;
+  color: #ffffff;
+  margin: 15px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.check-box {
+  width: 40px;
+}
+
+.text {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.save-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-text {
+  height: 35px;
+  width: 350px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
